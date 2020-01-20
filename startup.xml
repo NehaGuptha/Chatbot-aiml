@@ -1,0 +1,33 @@
+<aiml version="1.0.1" encoding="UTF-8">
+	<category>
+		<pattern>LOAD</pattern>
+		<template>
+			<learn>chatbot.aiml</learn>
+		</template>
+	</category>
+	<category>
+		<pattern>BATTLEDOME</pattern>
+		<template>
+			<learn>battledome.aiml</learn>
+		</template>
+	</category>
+	<category>
+		<pattern>GUESSNAME</pattern>
+	    <template>
+			<learn>guess.aiml</learn>
+		</template>
+	</category>
+	<category>
+		<pattern>MONTHLYDIARY</pattern>
+		<template>
+			<learn>diary.aiml</learn>
+		</template>
+	</category>
+	<category>
+		<pattern>JOKEPLEASE</pattern>
+		<template>
+			<learn>jokes.aiml</learn>
+		</template>
+	</category>
+	
+</aiml>

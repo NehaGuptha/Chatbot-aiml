@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+
+<category>
+<pattern>GUESSWORD</pattern>
+<template>
+<think>
+<set name="chances">5</set>
+</think>
+Welcome to the guessword.<br/><br/>You have<get name="chances"/>chances <br/>Type START to begin your GAME.<br/>you will get 5 chances and same clues or different clues will be given each time you answer</template>
+</category>
+
+
+
+
+<category>
+<pattern>CLUE</pattern>
+<template>
+<condition name = "chances" value = "1">
+      <srai>BYE</srai> 
+</condition>
+<condition name = "word" value = "mango">
+      <srai>CLUEMAN</srai> <srai>CO</srai>
+</condition>
+<condition name = "word" value = "vampire">
+      <srai>CLUEV</srai> <srai>CO</srai>
+</condition>
+<condition name = "word" value = "jonsnow">
+      <srai>CLUEJ</srai> <srai>CO</srai>
+</condition>
+<condition name = "word" value = "school">
+      <srai>CLUES</srai> <srai>CO</srai>
+</condition>
+<condition name = "word" value = "rapunzel">
+      <srai>CLUER</srai> <srai>CO</srai>
+</condition>
+<condition name = "word" value = "friends">
+		<srai>CLUEF</srai> <srai>CO</srai>
+</condition>
+</template>
+</category>
+
+<category>
+      <pattern>CLUEMAN</pattern>
+      <template>
+         <random>
+            <li>I AM yellow fruit.</li>
+            <li>king of fruits</li>
+            <li>summer special.</li>
+            <li>i have seed.</li>
+            
+        </random>
+      </template>  
+</category>  
+
+<category>
+      <pattern>CLUEV</pattern>
+      <template>
+         <random>
+            <li>I suck blood.</li>
+            <li>i am in twilight</li>
+            <li>i hate sun.</li>
+            <li>i have diaries.</li>
+            
+        </random>
+      </template>  
+</category> 
+
+<category>
+      <pattern>CLUEJ</pattern>
+      <template>
+         <random>
+            <li>I KNOW NOTHINH.</li>
+            <li>king of wall</li>
+            <li>my wolf is ghost</li>
+            <li>love ygritte</li>
+            
+        </random>
+      </template>  
+</category>   
+
+<category>
+      <pattern>CLUES</pattern>
+      <template>
+         <random>
+            <li>u visit me since u are a child.</li>
+            <li>I educate u</li>
+            <li>I give u homework</li>
+            <li>I give u lot of friends</li>
+            
+        </random>
+      </template>  
+</category>  
+
+<category>
+      <pattern>CLUER</pattern>
+      <template>
+         <random>
+            <li>I have long hair.</li>
+            <li>i am in tangled</li>
+            <li>my hair have magical powers</li>
+            <li>My parents lost me when i was a baby</li>
+            
+        </random>
+      </template>  
+</category>  
+
+<category>
+      <pattern>CLUEF</pattern>
+      <template>
+         <random>
+            <li>I am probably the best series with 10 seasons.</li>
+            <li>well we are on a break series</li>
+            <li>seven seven seven seven series</li>
+            <li>HOW U DOIN? series</li>
+            
+        </random>
+      </template>  
+</category>  
+
+<category>
+      <pattern>ANSWER IS *</pattern>
+      <template>
+         That is interesting <set name="answer"><star/></set>!!!<srai>CHECK</srai>
+      </template>  
+</category>  
+
+
+<category>
+<pattern>CHECK</pattern>
+<template>
+<condition name = "word" value = "mango">
+      <srai>CHECKM</srai>
+</condition>
+<condition name = "word" value = "vampire">
+      <srai>CHECKV</srai>
+</condition>
+<condition name = "word" value = "jonsnow">
+      <srai>CHECKJ</srai>
+</condition>
+<condition name = "word" value = "school">
+      <srai>CHECKS</srai>
+</condition>
+<condition name = "word" value = "rapunzel">
+      <srai>CHECKR</srai>
+</condition>
+<condition name = "word" value = "friends">
+      <srai>CHECKF</srai>
+</condition>
+</template>
+</category>
+
+
+
+
+<category>
+<pattern>CHECKM</pattern>
+<template>
+<condition name = "answer" value = "mango">
+      yayy that is the right answer!!<srai>NEXT</srai>
+</condition>
+no it is wrong  <srai>NEXT</srai>
+</template>
+</category>
+
+<category>
+<pattern>CHECKV</pattern>
+<template>
+<condition name = "answer" value = "vampire">
+      yayy that is the right answer!!<srai>NEXT</srai>
+</condition>
+no it is wrong  <srai>NEXT</srai>
+</template>
+</category>
+
+<category>
+<pattern>CHECKJ</pattern>
+<template>
+<condition name = "answer" value = "jonsnow">
+      yayy that is the right answer!!<srai>NEXT</srai>
+</condition>
+no it is wrong  <srai>NEXT</srai>
+</template>
+</category>
+
+<category>
+<pattern>CHECKS</pattern>
+<template>
+<condition name = "answer" value = "school">
+      yayy that is the right answer!!<srai>NEXT</srai>
+</condition>
+no it is wrong  <srai>NEXT</srai>
+</template>
+</category>
+
+<category>
+<pattern>CHECKR</pattern>
+<template>
+<condition name = "answer" value = "rapunzel">
+      yayy that is the right answer!!<srai>NEXT</srai>
+</condition>
+no it is wrong  <srai>NEXT</srai>
+</template>
+</category>
+
+<category>
+<pattern>CHECKF</pattern>
+<template>
+<condition name = "answer" value = "friends">
+      yayy that is the right answer!!<srai>NEXT</srai>
+</condition>
+no it is wrong  <srai>NEXT</srai>
+</template>
+</category>
+
+<category>
+<pattern>NEXT</pattern>
+<template>
+press START for other word CLUE for other clue and GUESSWORD TO restart
+</template>
+</category> 
+
+
+
+<category>
+        <pattern>START</pattern>
+        <template>
+            enter GUESSWORD for new game clue for clue and answer is (solution)<srai>GET</srai>
+        </template>
+    </category>
+
+<category>
+<pattern>GET</pattern>
+<template>
+<think>
+<random>
+<li><set name="word">mango</set></li>
+<li><set name="word">school</set></li>
+<li><set name="word">rapunzel</set></li>
+<li><set name="word">vampire</set></li>
+<li><set name="word">jonsnow</set></li>
+<li><set name="word">friends</set></li>
+</random>
+</think>
+</template>
+</category>
+
+
+<category>
+      <pattern>GET ANSWER</pattern>
+      <template>
+         Your ANSWER is <get name="word"/><get name="chances"/>.
+      </template>  
+</category>  
+
+
+<category>
+<pattern>CO</pattern>
+<template>
+<think>
+<condition name="chances">
+
+<li value="5"><set name="chances">4</set></li>
+<li value="4"><set name="chances">3</set></li>
+<li value="3"><set name="chances">2</set></li>
+<li value="2"><set name="chances">1</set></li>
+<li value="2"><set name="chances">0</set></li>
+
+
+</condition>
+
+</think>
+</template>
+</category>
+
+<category>
+<pattern>BYE</pattern>
+<template>
+ chances over bye!!! <srai>guessword</srai>
+</template>
+</category>
+
+
+
+</aiml>

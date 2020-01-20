@@ -1,0 +1,447 @@
+<?xml version="4.0" encoding="ISO-8859-4"?> 
+<aiml version="4.0">
+
+<category>
+<pattern>START</pattern>
+<template>
+	enter (1/2/3..31) experience(I-WAS-GOING...) TO STORE AND GET (1/2/3..31) TO RETRIEVE
+</template>
+</category>
+<category>
+	<pattern> 1 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="1"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 1</pattern>
+      <template>
+         Your day was like <get name="1"/>.
+      </template>  
+</category>
+
+ 
+
+<category>
+	<pattern> 2 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="2"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 2</pattern>
+      <template>
+         Your day was like <get name="2"/>.
+      </template>  
+</category>  
+
+<category>
+	<pattern> 3 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="3"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 3</pattern>
+      <template>
+         Your day was like <get name="3"/>.
+      </template>  
+</category>  
+
+<category>
+	<pattern> 4 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="4"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 4</pattern>
+      <template>
+         Your day was like <get name="4"/>.
+      </template>  
+</category>
+
+<category>
+	<pattern> 5 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="5"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 5</pattern>
+      <template>
+         Your day was like <get name="5"/>.
+      </template>  
+</category>  
+
+<category>
+	<pattern> 6 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="6"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 6</pattern>
+      <template>
+         Your day was like <get name="6"/>.
+      </template>  
+</category>  
+
+<category>
+	<pattern> 7 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="7"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 7</pattern>
+      <template>
+         Your day was like <get name="7"/>.
+      </template>  
+</category>  
+
+<category>
+	<pattern> 8 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="8"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 8</pattern>
+      <template>
+         Your day was like <get name="8"/>.
+      </template>  
+</category> 
+
+<category>
+	<pattern> 9 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="9"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 9</pattern>
+      <template>
+         Your day was like <get name="9"/>.
+      </template>  
+</category>
+
+<category>
+	<pattern> 10 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="10"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 10</pattern>
+      <template>
+         Your day was like <get name="10"/>.
+      </template>  
+</category>    
+
+
+
+<category>
+	<pattern> 11 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="11"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 11</pattern>
+      <template>
+         Your day was like <get name="11"/>.
+      </template>  
+</category>     
+
+<category>
+	<pattern> 12 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="12"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 12</pattern>
+      <template>
+         Your day was like <get name="12"/>.
+      </template>  
+</category> 
+
+<category>
+	<pattern> 13 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="13"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 13</pattern>
+      <template>
+         Your day was like <get name="13"/>.
+      </template>  
+</category>  
+
+<category>
+	<pattern> 14 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="14"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 14</pattern>
+      <template>
+         Your day was like <get name="14"/>.
+      </template>  
+</category> 
+
+<category>
+	<pattern> 15 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="15"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 15</pattern>
+      <template>
+         Your day was like <get name="15"/>.
+      </template>  
+</category> 
+
+<category>
+	<pattern> 16 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="16"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 16</pattern>
+      <template>
+         Your day was like <get name="16"/>.
+      </template>  
+</category> 
+
+<category>
+	<pattern> 17 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="17"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 17</pattern>
+      <template>
+         Your day was like <get name="17"/>.
+      </template>  
+</category> 
+
+<category>
+	<pattern> 18 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="18"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 18</pattern>
+      <template>
+         Your day was like <get name="18"/>.
+      </template>  
+</category> 
+
+<category>
+	<pattern> 19 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="19"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 19</pattern>
+      <template>
+         Your day was like <get name="19"/>.
+      </template>  
+</category> 
+
+<category>
+	<pattern> 20 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="20"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 20</pattern>
+      <template>
+         Your day was like <get name="20"/>.
+      </template>  
+</category>
+
+<category>
+	<pattern> 21 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="21"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 21</pattern>
+      <template>
+         Your day was like <get name="21"/>.
+      </template>  
+</category> 
+
+<category>
+	<pattern> 22 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="22"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 22</pattern>
+      <template>
+         Your day was like <get name="22"/>.
+      </template>  
+</category>  
+
+<category>
+	<pattern> 23 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="23"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 23</pattern>
+      <template>
+         Your day was like <get name="23"/>.
+      </template>  
+</category> 
+
+<category>
+	<pattern> 24 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="24"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 24</pattern>
+      <template>
+         Your day was like <get name="24"/>.
+      </template>  
+</category> 
+
+<category>
+	<pattern> 25 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="25"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 25</pattern>
+      <template>
+         Your day was like <get name="25"/>.
+      </template>  
+</category>
+<category>
+	<pattern> 26 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="26"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 26</pattern>
+      <template>
+         Your day was like <get name="26"/>.
+      </template>  
+</category>
+ 
+<category>
+	<pattern> 27 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="27"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 27</pattern>
+      <template>
+         Your day was like <get name="27"/>.
+      </template>  
+</category> 
+
+<category>
+	<pattern> 28 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="28"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 28</pattern>
+      <template>
+         Your day was like <get name="28"/>.
+      </template>  
+</category>
+
+<category>
+	<pattern> 29 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="29"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 29</pattern>
+      <template>
+         Your day was like <get name="29"/>.
+      </template>  
+</category>
+
+<category>
+	<pattern> 30 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="30"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 30</pattern>
+      <template>
+         Your day was like <get name="30"/>.
+      </template>  
+</category>
+
+<category>
+	<pattern> 31 * </pattern>
+	<template>
+		That is interesting that you have a day like <set name="31"><star/></set>
+	</template>  
+</category>
+
+<category>
+      <pattern>GET 31</pattern>
+      <template>
+         Your day was like <get name="31"/>.
+      </template>  
+</category>
+
+</aiml>
