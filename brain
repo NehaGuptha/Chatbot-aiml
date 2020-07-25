@@ -12,3 +12,8 @@ else:
 # kernel now ready for use
 while True:
     print kernel.respond(raw_input("Enter your message >> "))
+
+
+
+#When you start to have a lot of AIML files, it can take a long time to learn. This is where brain files come in. 
+After the bot learns all the AIML files it can save its brain directly to a file which will drastically speed up load times on subsequent runs.
